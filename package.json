@@ -1,0 +1,28 @@
+{
+  "name": "latest-from-scratch-attempt",
+  "version": "1.0.0",
+  "description": "Coursework 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Express",
+    "Mustache",
+    "NeDB",
+    "Passport"
+  ],
+  "author": "Anthony To",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jest": "^28.0.3",
+    "mustache-express": "^1.3.2",
+    "nedb-models": "^4.0.1",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0"
+  }
+}
