@@ -1,1 +1,4 @@
+{{ >partials/nav}}
+{{ >partials/header}}
+
 contact
