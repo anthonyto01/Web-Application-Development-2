@@ -1,3 +1,3 @@
 exports.notFound = (req, res) => {
-    res.render('err/notFound', {});
+    res.render('../views/404/err', {});
   };
