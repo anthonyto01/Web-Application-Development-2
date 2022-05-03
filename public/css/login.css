@@ -10,7 +10,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  
+
   margin: auto;
 
 }
@@ -28,6 +28,7 @@
 .login__button:hover {
   cursor: pointer;
 }
+
 
 .staffreturn_backbtn{
   position: absolute;

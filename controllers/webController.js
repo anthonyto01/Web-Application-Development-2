@@ -15,7 +15,10 @@ exports.menu = async (req, res) => {
 };
 
 exports.contact = (req, res) => {
-  res.render('contact', { Title: 'Contact' });
+  const css = [
+    { url: '/css/contact.css'},
+  ];
+  res.render('contact', { Title: 'Contact', css });
 };
 
 exports.aboutUs = (req, res) => {

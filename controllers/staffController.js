@@ -3,7 +3,11 @@ const Dish = require('../models/DishModel');
 const Staff = require('../models/StaffModel');
 
 exports.dashboard = (req, res) => {
-  res.render('staff/dashboard', { Title: 'Dashboard' });
+const css = [
+  { url: '/css/staffdash.css'},
+];
+
+  res.render('staff/dashboard', { Title: 'Dashboard', css });
 };
 
 exports.dishes = async (req, res) => {
