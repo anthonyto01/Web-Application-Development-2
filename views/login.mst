@@ -1,6 +1,6 @@
 {{ >partials/header }}
-  <div class="viewport">
-      <a class="viewport__backbtn" href="/">Return to Previous</a>
+  <div class="staffreturn">
+      <a class="staffreturn__backbtn" href="/">Return to Previous</a>
   </div>
   
   <div class="login">

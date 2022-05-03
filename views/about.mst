@@ -8,8 +8,7 @@
                 <img class="acr__image" src="/images/hero.jpg" alt="pizza dish">
             </div>
 
-        <div class="aboutcontainer__sectiontextwrapper">
-
+        <div class="about_textwrap">
         <p class="about_text">
             <span class="about_title">Italian Specialities</span>
             <br/>
@@ -28,8 +27,7 @@
             </div>
 
 
-        <div class="aboutcontainer__sectiontextwrapper">
-
+        <div class="about_textwrap">
         <p class="about_text">
             <span class="about_title">Popular Dishes</span>
             <br />
