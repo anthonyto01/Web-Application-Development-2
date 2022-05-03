@@ -1,4 +1,39 @@
 {{ >partials/nav}}
 {{ >partials/header}}
 
-contact
+<section class="contactinfo_container">
+    <div class="contactinfo_section">
+        <div class="aboutcontainer__textwrapper">
+          <p class="aboutcontainer__text">
+            <span class="aboutcontainer__title">Contact Us Now</span>
+            <br />
+            For more information about us, please call us on this number!
+            <br />
+            For more additional information required, please email us at Shanty@shack.com.
+            Responses will typically take 1-3 working days.
+          </p>
+        </div>
+      </div>
+</section>
+
+<section class="contactform_container">
+<div class="contacts_container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="subject">Comments</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</section>
+
+{{ >partials/footer}}

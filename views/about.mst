@@ -1,4 +1,2 @@
 {{ >partials/nav}}
 {{ >partials/header}}
-
-about

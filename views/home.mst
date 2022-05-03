@@ -1,2 +1,10 @@
 {{ >partials/nav}}
 {{ >partials/header}}
+
+<section class="hero">
+  <section class="hero">
+    <div class="hero__textcontainer">
+      <h2 class="hero__heading">Shanty's Shack House</h2>
+      <a class="hero__cta"href="/login">View our menu</a>
+    </div>
+  </section>

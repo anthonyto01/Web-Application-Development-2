@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: calc(100vh - var(--headerHeight));
+  
+    background-image: url('./images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .hero__textcontainer {
+    transform: translateY(-10%);
+    text-align: center;
+  
+    color: #fff;
+  }
+  .hero__heading {
+    font-family: 'Lily Script One', serif;
+    font-size: 6rem;
+  
+    width: 70vw;
+    margin: 1rem 0;
+  }
+
+  .hero__cta {
+    font-size: 1.2rem;
+    font-weight: bold;
+  
+    padding: 1rem;
+  
+    transition: all 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+    color: #333;
+    border: 3px solid var(--primary);
+    border-radius: 0.3rem;
+    background: var(--primary);
+  }
+  .hero__cta:hover {
+    color: var(--primary);
+    background: rgba(0, 0, 0, 0);
+  }
