@@ -4,7 +4,8 @@
   "description": "Coursework 2",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "seed": "node seed.js"
   },
   "keywords": [
     "Express",
