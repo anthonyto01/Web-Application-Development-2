@@ -5,6 +5,8 @@
   <head>
     <title> Shanty's Shack House {{ pageTitle }}</title>
     <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="/css/contact.css" />
 
     {{ #css }}
       <link rel="stylesheet" type="text/css" href="{{ url }}" />
