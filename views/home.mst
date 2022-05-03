@@ -7,3 +7,24 @@
       <a class="hero__link"href="/login">Staff Login</a>
     </div>
   </section>
+
+<section class="homeinfo">
+    <div class="homecontainer">
+        <div class="homecontainer__section">
+            <div class="hcs__imagewrap">
+                <img class="hcs__image" src="/images/menu.jpg" alt="menu image">
+            </div>
+
+        <div class="home_textwrap">
+        <p class="home_text">
+            <span class="home_title">Our Menus</span>
+            <br/>
+            In the Shanty's Shack House we offer our customers a variety of dishes based in Italy.
+            <br/>
+            You can choose from Lunch, Dinner or our Chief's Speciality dishes with changes to the menu 
+            every week, to bring our customers new and fresh dishes each time they return. 
+        </p>
+        </div>
+        </div>
+        </div>
+</section>
