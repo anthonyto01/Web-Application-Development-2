@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 .hero {
     display: flex;
@@ -26,16 +28,30 @@
   }
 
   .hero__link {
-    border: none;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 13px 50px 13px;
     outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
+    border: 1px solid black;
     cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Roboto Mono", monospace;
   }
-  .hero__link:hover {
-    background-color: #555;
-    color: white;
+
+  .hero__link::after {
+    content: "";
+    background-color: #a6a6a6;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .hero__link:hover::after {
+    top: 0px;
+    left: 0px;
   }
