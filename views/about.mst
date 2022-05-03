@@ -1,2 +1,44 @@
 {{ >partials/nav}}
 {{ >partials/header}}
+
+
+    <div class="aboutcontainer">
+        <div class="aboutcontainer__section">
+            <div class="acr__imagewrap">
+                <img class="acr__image" src="/images/hero.jpg" alt="pizza dish">
+            </div>
+
+        <div class="aboutcontainer__sectiontextwrapper">
+
+        <p class="about_text">
+            <span class="about_title">Italian Specialities</span>
+            <br/>
+            Our ingredients and recipes are brought straight back from Italy itself.
+            <br/>
+            We want to give our customers the experience of tasting Italy's finest dishes here at your
+            door step without you requiring to fly over there in pereson. 
+        </p>
+
+        </div>
+        </div>
+
+        <div class="aboutcontainer__section">
+            <div class="acr__imagewrap">
+                <img class="acr__image" src="/images/pizza.jpg" alt="pizza dish 2.0">
+            </div>
+
+
+        <div class="aboutcontainer__sectiontextwrapper">
+
+        <p class="about_text">
+            <span class="about_title">Popular Dishes</span>
+            <br />
+            Our restaurant is known for its exquisite dishes of pasta such as Risotto, Linguini and Lasagna.
+            <br />
+            Our pasta dishes cater to all members of the public with a variety of gluten free, vegetarian,  
+            and seafood free dishes. Ask our members of staff for more information regarding allergies!
+        </p>
+        </div>
+        </div>
+        </div>
+    

@@ -16,14 +16,20 @@ exports.contact = (req, res) => {
 };
 
 exports.aboutUs = (req, res) => {
-  res.render('about', { Title: 'About us' });
+ const css = [
+      { url: '/css/about.css'},
+    ];
+  res.render('about', { Title: 'About us', css});
 };
 
 exports.login = async (req, res) => {
+  const css = [
+    { url: '/css/login.css'},
+  ];
   const accessToken = req.cookies['jwt'];
 
   if (!accessToken) {
-    return res.render('login', { Title: 'Login' });
+    return res.render('login', { Title: 'Login' , css, accessToken});
   }
 
   try {

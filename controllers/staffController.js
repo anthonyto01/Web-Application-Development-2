@@ -56,12 +56,8 @@ exports.deleteDish = async (req, res) => {
 };
 
 exports.registerUser = (req, res) => {
-  const css = [
-    { url: '/css/staff/form.css' },
-    { url: '/css/staff/registerForm.css' },
-  ];
 
-  res.render('staff/register', { pageTitle: 'Register', css });
+  res.render('staff/register', { Title: 'Register' });
 };
 
 exports.addDishPOST = async (req, res) => {

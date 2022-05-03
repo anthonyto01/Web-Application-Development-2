@@ -1,3 +1,6 @@
+require('dotenv').config();
+require('./auth/passport');
+
 const express = require('express');
 const app = express();
 const mustacheExpress = require('mustache-express');
