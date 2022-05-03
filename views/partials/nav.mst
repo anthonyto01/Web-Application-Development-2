@@ -1,6 +1,5 @@
-
 <nav class="navigation_bar">
-  <ul class="nav__list">
+<ul class="nav__list">
     <li class="nav__listitem">
       <a class="navigation__link" href="/">
         <span class="navigation_text">Home</span>
@@ -21,3 +20,4 @@
         <span class="navigation_text">Contact Us</span>
       </a>
     </li>
+</ul>

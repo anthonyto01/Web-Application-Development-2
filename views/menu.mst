@@ -1,3 +1,2 @@
 {{ >partials/nav}}
-
-menu
+{{ >partials/header}}
