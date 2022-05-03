@@ -3,7 +3,7 @@
 
 
     <div style="float:left; width: 50%" class="contactinfo_section">
-            <img src='/images/review.jpg' style="float:left; padding:30px; width: 950; height:750" >
+            <img src='/images/review.jpg' style="float:left; padding:30px; width: 950; height:750; border-radius: 10%">
     </div>
     </div>
     <br>

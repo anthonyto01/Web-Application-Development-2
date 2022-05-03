@@ -56,29 +56,19 @@ exports.deleteDish = async (req, res) => {
 };
 
 exports.registerUser = (req, res) => {
-  const css = [
-    { url: '/css/staff/form.css' },
-    { url: '/css/staff/registerForm.css' },
-  ];
 
-  res.render('staff/register', { pageTitle: 'Register', css });
+  res.render('staff/register', { Title: 'Register' });
 };
 
 exports.addDishPOST = async (req, res) => {
   let {
     name, desc, dish_type, price, is_special,
     ingredients, allergens, allergy_advice,
-    is_vegetarian, is_vegan, is_hidden,
-    slug,
+    is_hidden, slug,
   } = req.body;
 
   const ingredientList = ingredients.replace(/\s/g, '').split(',');
   const allergenList = allergens.replace(/\s/g, '').split(',');
-
-  // link vegan suitable to vegetarian
-  if (is_vegan === 'on') {
-    is_vegetarian = 'on';
-  }
 
   const doc = {
     name,
@@ -90,9 +80,6 @@ exports.addDishPOST = async (req, res) => {
         advice: allergy_advice,
       },
     },
-    chefSpecial: is_special === 'on' ? true : false,
-    vegetarian: is_vegetarian === 'on' ? true : false,
-    vegan: is_vegan === 'on' ? true : false,
     dishType: dish_type,
     price,
     hidden: is_hidden === 'on' ? true : false,

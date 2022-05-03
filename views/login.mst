@@ -1,5 +1,21 @@
 {{ >partials/header }}
+  <div class="staffreturn">
+      <a class="staffreturn__backbtn" href="/">Return to Previous</a>
+  </div>
+  
+  <div class="login">
+  <form class="login_form" action="/login" method="post">
 
-  <div class="viewport">
-      <a class="viewport__backbtn" href="/">Back to Website</a>
-</div>
+  <div class="login_container">
+    <label class="login__label" for="id"><b>Username</b></label>
+    <input class="login__input" type="text" name="id">
+  </div>
+<br>
+  <div class="login_container">
+    <label class="login__label" for="password"><b>Password</b></label>
+    <input class="login__input" type="password" name="password">
+  </div>      
+<br>
+  <input class="login__button" type="submit" value="Log in">
+  </form>
+  </div>

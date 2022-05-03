@@ -2,7 +2,10 @@ const jwt = require('jsonwebtoken');
 const Dish = require('../models/DishModel');
 
 exports.home = (req, res) => {
-  res.render('home', { Title: 'Home' });
+  const css = [
+    { url: '/css/homepage.css'},
+  ];
+  res.render('home', { Title: 'Home', css });
 };
 
 exports.menu = async (req, res) => {
@@ -16,14 +19,20 @@ exports.contact = (req, res) => {
 };
 
 exports.aboutUs = (req, res) => {
-  res.render('about', { Title: 'About us' });
+ const css = [
+      { url: '/css/about.css'},
+    ];
+  res.render('about', { Title: 'About us', css});
 };
 
 exports.login = async (req, res) => {
+  const css = [
+    { url: '/css/login.css'},
+  ];
   const accessToken = req.cookies['jwt'];
 
   if (!accessToken) {
-    return res.render('login', { Title: 'Login' });
+    return res.render('login', { Title: 'Login' , css, accessToken});
   }
 
   try {
