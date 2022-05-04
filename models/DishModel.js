@@ -94,6 +94,7 @@ class Dish  {
     }
 
    init(){
+     //Dishes that will be inserted into the database
 const dishData = [
   {
     name: 'Pumpkin Risotto',
@@ -155,6 +156,16 @@ const dishData = [
     chefSpecial: false,
     dishType: 'dinner',
     price: '14.50',
+    hidden: false,
+  },
+  {
+    name: 'Bruschetta Pate',
+    description: 'Toasted bread topped with caramelised onions.',
+    ingredients: 'Chicken, Onions, Tomatos, Rocket',
+    allergies: 'Contains Diary Products',
+    chefSpecial: true,
+    dishType: 'dinner',
+    price: '12.50',
     hidden: false,
   },
 ];

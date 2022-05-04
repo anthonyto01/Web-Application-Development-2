@@ -12,6 +12,9 @@ exports.home = (req, res) => {
 };
 
 exports.menu = function (req, res) {
+  const css = [
+    { url: '/css/menu.css'},
+  ];
   db.getLunchEntries()
       .then((lunchlist) => {
         db.getDinnerEntries()
@@ -22,7 +25,8 @@ exports.menu = function (req, res) {
                 { 
                   Lunchentries: lunchlist,
                   Dinnerentries: dinnerlist,
-                  Specialentries: specialist
+                  Specialentries: specialist,
+                  css
                 })
         });
     })
