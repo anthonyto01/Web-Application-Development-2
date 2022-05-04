@@ -1,6 +1,9 @@
 const jwt = require('jsonwebtoken');
 const Dish = require('../models/DishModel');
 
+const db = new Dish();
+db.init();
+
 exports.home = (req, res) => {
   const css = [
     { url: '/css/homepage.css'},
@@ -8,10 +11,28 @@ exports.home = (req, res) => {
   res.render('home', { Title: 'Home', css });
 };
 
-exports.menu = async (req, res) => {
-  const menus = await Dish.getSortedMenu(false); // withHidden: false
-
-  res.render('menu', { Title: 'Menu',  menus });
+exports.menu = function (req, res) {
+  db.getLunchEntries()
+      .then((lunchlist) => {
+        db.getDinnerEntries()
+          .then((dinnerlist) => {
+            db.getSpecialEntries()
+              .then((specialist) => {
+                res.render('menu', 
+                { 
+                  Lunchentries: lunchlist,
+                  Dinnerentries: dinnerlist,
+                  Specialentries: specialist
+                })
+        });
+    })
+    .catch((err) => {
+      console.log("promise rejected", err);
+    });
+})
+.catch((err) => {
+  console.log("promise rejected", err);
+});
 };
 
 exports.contact = (req, res) => {
