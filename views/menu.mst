@@ -1,11 +1,11 @@
 {{ >partials/nav}}
 {{ >partials/header}}
 
-<div class="lunchmenu">
+<div class="menu">
 <h1> Lunch Menu </h1>
 </div>
 
-{{#dish}}
+{{#Lunchentries}}
 <h4 class="dish_title">{{name}}</h4>
 <p class="dish-text">
     Description: {{description}}<br>
@@ -14,4 +14,31 @@
     {{dishType}}<br>
     {{price}}<br>
 </p>
-{{/dish}}
+{{/Lunchentries}}
+
+<h1> Dinner Menu </h1>
+{{#Dinnerentries}}
+<h4 class="dish_title">{{name}}</h4>
+<p class="dish-text">
+    Description: {{description}}<br>
+    Ingredients: {{ingredients}}<br>
+    Allergies: {{allergies}}<br>
+    {{dishType}}<br>
+    {{price}}<br>
+</p>
+{{/Dinnerentries}}
+
+<h1> Special Menu </h1>
+{{#Specialentries}}
+<h4 class="dish_title">{{name}}</h4>
+<p class="dish-text">
+    Description: {{description}}<br>
+    Ingredients: {{ingredients}}<br>
+    Allergies: {{allergies}}<br>
+    {{dishType}}<br>
+    {{price}}<br>
+</p>
+{{/Specialentries}}
+</div>
+
+
