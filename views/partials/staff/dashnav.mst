@@ -11,6 +11,11 @@
       </a>
     </li>
     <li class="navigation_option">
+      <a class="navigation__link" href="/">
+        <span class="navigation_text">Home</span>
+      </a>
+    </li>
+    <li class="navigation_option">
       <a class="navigation__link" href="/staff/dishes">
         <span class="navigation_text">Menu</span>
       </a>

@@ -1,6 +1,6 @@
 {{ >partials/header }}
   <div class="staffreturn">
-      <a class="staffreturn__backbtn" href="/">Return to Previous</a>
+      <a class="staffreturn__backbtn" href="/">Return to Website</a>
   </div>
   
   <div class="login">

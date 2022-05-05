@@ -15,6 +15,7 @@
 
 }
 
+
 .login_container {
   display: flex;
   flex-direction: column;
@@ -30,11 +31,18 @@
 }
 
 
-.staffreturn_backbtn{
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  padding: 10px;
+.staffreturn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 6.5%;
+}
+
+.staffreturn:hover {
+  background-color: #45a049;
 }
 
 
