@@ -64,3 +64,16 @@ Contact
  - Lastname,
  - Email,
  - Review
+
+### Staff Interface
+Dashboard
+ - Admin Dashboard Hero Interface
+
+Register
+ - Admin account creation
+
+Menu
+ - N/A
+
+Logout
+ - Returns to main site
