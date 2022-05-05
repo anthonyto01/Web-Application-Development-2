@@ -38,3 +38,32 @@ Shanty(Username) / Shack(Password)
 
 The development server has been hardcoded to run on port `3000` and can be accessed in the browser
 at [localhost:3000](http://localhost:3000).
+
+
+## Features
+
+>Main Site
+Navigation bar
+Staff Login Button
+
+Home
+The landing page of the website
+Hero Image Banner
+Call to action (menu)
+Info section
+
+Menu
+Dish names & prices
+Name,
+Price,
+Description,
+Ingredients,
+Allergens
+
+Contact
+Contact form tomake reviews or questions
+Contact details;
+Firstname,
+Lastname,
+Email,
+REview
