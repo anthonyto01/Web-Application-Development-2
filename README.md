@@ -53,17 +53,17 @@ Call to action (menu)
 Info section
 
 Menu
-Dish names & prices
-Name,
-Price,
-Description,
-Ingredients,
-Allergens
+ -Dish names & prices
+ -Name,
+ -Price,
+ -Description,
+ -Ingredients,
+ -Allergens
 
 Contact
-Contact form tomake reviews or questions
-Contact details;
-Firstname,
-Lastname,
-Email,
-REview
+-Contact form tomake reviews or questions
+ -Contact details;
+ -Firstname,
+ -Lastname,
+ -Email,
+ -Review
