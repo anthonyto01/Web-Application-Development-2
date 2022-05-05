@@ -3,7 +3,7 @@
 
 This repository contains the source code for Web Development Application 2
 
-## Team
+## Developer
 
 |Name|Role|SMN|Email|
 |---|---|---|---|
