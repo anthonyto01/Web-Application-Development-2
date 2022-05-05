@@ -42,13 +42,13 @@ at [localhost:3000](http://localhost:3000).
 
 ## Features
 
-Main Site
- - Navigation bar
-
+###Main Site
+-------------
 Home
  - The landing page of the website
  - Staff Login Button
-
+ - Navigation bar
+ - 
 Menu
  - Dish names & prices
  - Name,
@@ -66,6 +66,7 @@ Contact
  - Review
 
 ### Staff Interface
+-------------
 Dashboard
  - Admin Dashboard Hero Interface
 
