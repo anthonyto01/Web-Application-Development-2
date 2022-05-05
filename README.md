@@ -5,9 +5,9 @@ This repository contains the source code for Web Development Application 2
 
 ## Developer
 
-|Name|Role|SMN|Email|
-|---|---|---|---|
-|Anthony To|Frontend Developer|S1823998|[ato204@caledonian.ac.uk](mailto:ato204@caledonian.ac.uk)|
+|Name|SMN|Email|
+|---|---|---|
+|Anthony To|S1823998|[ato204@caledonian.ac.uk](mailto:ato204@caledonian.ac.uk)|
 
 
 ## How to Run the Application
