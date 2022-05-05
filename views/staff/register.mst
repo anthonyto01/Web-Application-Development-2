@@ -1,1 +1,32 @@
-register page
+{{ >partials/staff/dashnav }}
+
+  <div class="registermenu">
+
+    <div class="registercontainer">
+      <h1 class="form_title">Create a New Account</h1>
+
+      <form class="registercontainer__form" action="/staff/register" method="POST">
+        <div class="registercontainer__form">
+          <label for="id">Staff Username</label>
+          <input type="text" name="id" required />
+        </div>
+
+        <div class="registercontainer__form">
+          <label for="password">Password</label>
+          <input type="password" name="password" required />
+        </div>
+
+        <div class="registercontainer__form">
+          <label for="passwordConfirm">Confirm Password</label>
+          <input type="password" name="passwordConfirm" required />
+        </div>
+
+        <div class="registercontainer__submitwrapper">
+          <a class="registercontainer__cancelbtn" href="/staff/dishes">Cancel</a>
+          <input class="registercontainer__submitbtn" type="submit" value="Save">
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>

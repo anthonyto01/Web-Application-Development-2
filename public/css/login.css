@@ -36,3 +36,30 @@
   left: 2rem;
   padding: 10px;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/homepage_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero__textcontainer {
+  transform: translateY(-10%);
+  text-align: center;
+
+  color: #fff;
+}
+.hero__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+
+  width: 70vw;
+  margin: 1rem 0;
+}
+
