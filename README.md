@@ -43,14 +43,11 @@ at [localhost:3000](http://localhost:3000).
 ## Features
 
 Main Site
-Navigation bar
-Staff Login Button
+ - Navigation bar
 
 Home
-The landing page of the website
-Hero Image Banner
-Call to action (menu)
-Info section
+ - The landing page of the website
+ - Staff Login Button
 
 Menu
  - Dish names & prices
