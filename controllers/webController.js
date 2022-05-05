@@ -53,6 +53,44 @@ exports.aboutUs = (req, res) => {
   res.render('about', { Title: 'About us', css});
 };
 
+exports.registerUser = (req, res) => {
+
+  res.render('staff/register', { Title: 'Register' });
+};
+
+exports.registerUserPOST = async (req, res) => {
+  const { id, password, passwordConfirm } = req.body;
+
+  if (!id || !password || !passwordConfirm) {
+    res.redirect('/staff/register');
+  }
+
+  if (password !== passwordConfirm) {
+     res.redirect('/staff/register');
+  }
+
+  try {
+    const salt = await bcrypt.genSalt(10);
+    const hash = await bcrypt.hash(password, salt);
+
+    const newUser = {
+      staffId: id,
+      firstName: 'Test',
+      lastName: 'User',
+      password: hash,
+      email: 'shantyman@shack.co.uk',
+    };
+
+    const doc = await Staff.insert(newUser);
+
+    console.log('Inserted:', doc);
+    res.redirect('/staff/dishes');
+  }
+  catch (err) {
+    console.log(err);
+  }
+};
+
 exports.login = async (req, res) => {
   const css = [
     { url: '/css/login.css'},
@@ -60,14 +98,14 @@ exports.login = async (req, res) => {
   const accessToken = req.cookies['jwt'];
 
   if (!accessToken) {
-    return res.render('login', { Title: 'Login' , css, accessToken});
+     return res.render('login', { Title: 'Login' , css, accessToken});
   }
 
   try {
     await jwt.verify(accessToken, process.env.SECRET);
-    return res.redirect('/staff/dashboard');
+     return res.redirect('/staff/dashboard');
   }
   catch (err) {
-    return res.render('login', { Title: 'Login'});
+     return res.render('login', { Title: 'Login'});
   }
 };
