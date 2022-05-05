@@ -33,7 +33,7 @@ nodemon index.js
 
 3. To Access Staff Login use the following details
 ```
-Shanty/Shack
+Shanty(Username) / Shack(Password)
 ```
 
 The development server has been hardcoded to run on port `3000` and can be accessed in the browser
