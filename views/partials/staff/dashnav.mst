@@ -1,6 +1,11 @@
 <nav class="navigation_bar">
 <ul class="nav__list">
     <li class="navigation_option">
+      <a class="navigation__link" href="/staff/dashboard">
+        <span class="navigation_text">Dashboard</span>
+      </a>
+    </li>
+    <li class="navigation_option">
       <a class="navigation__link" href="/staff/register">
         <span class="navigation_text">Register</span>
       </a>

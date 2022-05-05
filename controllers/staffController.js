@@ -19,8 +19,10 @@ exports.addDish = (req, res) => {
 };
 
 exports.registerUser = (req, res) => {
-
-  res.render('staff/register', { Title: 'Register' });
+  const css = [
+    { url: '/css/login.css'},
+  ];
+  res.render('staff/register', { Title: 'Register', css });
 };
 
 exports.registerUserPost = async (req, res) => {
