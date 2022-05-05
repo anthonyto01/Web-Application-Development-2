@@ -1,8 +1,9 @@
 {{ >partials/staff/dashnav }}
+{{ >partials/staff/staffhead }}
 
-dashboard
 <section class="hero">
     <div class="hero__textcontainer">
       <h2 class="hero__title">Shanty's Shack House</h2>
+        <h3 class="hero_subtitle">Staff Account, Try not to break anything!</h3>
     </div>
 </section>

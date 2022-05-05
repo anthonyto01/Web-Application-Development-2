@@ -15,17 +15,17 @@
 
 }
 
-.login__container {
+.login_container {
   display: flex;
   flex-direction: column;
 }
 
-.login__input {
+.login_input {
   width: 24rem;
   padding: 1rem;
 }
 
-.login__button:hover {
+.login_button:hover {
   cursor: pointer;
 }
 
@@ -37,29 +37,32 @@
   padding: 10px;
 }
 
-.hero {
-  display: flex;
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.createaccount_submitbtn{
   align-items: center;
   justify-content: center;
-  height: 50%;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/homepage_hero.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
 }
-
-.hero__textcontainer {
-  transform: translateY(-10%);
-  text-align: center;
-
-  color: #fff;
-}
-.hero__title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 4rem;
-
-  width: 70vw;
-  margin: 1rem 0;
-}
-

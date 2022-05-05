@@ -1,20 +1,16 @@
-<div class="viewport">
-  <header class="staffheader">
-    <ul class="staffheader__list">
-      <li class="staffheader__listitem">
-        <a class="staffheader__link" href="/staff/dashboard">
-          <span class="staffheader__linktext">Administration Dashboard</span>
-        </a>
-      </li>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+<body>
+    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="/css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
 
-      <li class="staffheader__listitem">
-        <a class="staffheader__link" href="/staff/register">
-          <span class="staffheader__linktext">Register</span>
-        </a>
-
-        <a class="staffheader__link" href="/logout">
-          <span class="staffheader__linktext">Log out</span>
-        </a>
-      </li>
-    </ul>
-  </header>
+    {{ #css }}
+      <link rel="stylesheet" type="text/css" href="{{ url }}" />
+    {{ /css }}
+    </head>
+    </body>

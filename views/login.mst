@@ -7,15 +7,15 @@
   <form class="login_form" action="/login" method="post">
 
   <div class="login_container">
-    <label class="login__label" for="id"><b>Username</b></label>
-    <input class="login__input" type="text" name="id">
+    <label class="login_label" for="id"><b>Username</b></label>
+    <input class="login_input" type="text" name="id" required>
   </div>
 <br>
   <div class="login_container">
-    <label class="login__label" for="password"><b>Password</b></label>
-    <input class="login__input" type="password" name="password">
+    <label class="login_label" for="password"><b>Password</b></label>
+    <input class="login_input" type="password" name="password" required>
   </div>      
 <br>
-  <input class="login__button" type="submit" value="Log in">
+  <input class="login_button" type="submit" value="Log in">
   </form>
   </div>
