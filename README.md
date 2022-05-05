@@ -42,7 +42,7 @@ at [localhost:3000](http://localhost:3000).
 
 ## Features
 
->Main Site
+Main Site
 Navigation bar
 Staff Login Button
 
@@ -61,8 +61,8 @@ Menu
  -Allergens
 
 Contact
--Contact form tomake reviews or questions
- -Contact details;
+- Contact form tomake reviews or questions
+- Contact details;
  -Firstname,
  -Lastname,
  -Email,
