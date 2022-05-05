@@ -3,11 +3,11 @@
 
 This repository contains the source code for Web Development Application 2
 
-## Team
+## Developer
 
-|Name|Role|SMN|Email|
-|---|---|---|---|
-|Anthony To|Frontend Developer|S1823998|[ato204@caledonian.ac.uk](mailto:ato204@caledonian.ac.uk)|
+|Name|SMN|Email|
+|---|---|---|
+|Anthony To|S1823998|[ato204@caledonian.ac.uk](mailto:ato204@caledonian.ac.uk)|
 
 
 ## How to Run the Application
@@ -31,6 +31,51 @@ or if you have install nodemon (**Highly recommended** - `npm install --save nod
 nodemon index.js
 ```
 
+3. To Access Staff Login use the following details
+```
+Shanty(Username) / Shack(Password)
+```
 
 The development server has been hardcoded to run on port `3000` and can be accessed in the browser
 at [localhost:3000](http://localhost:3000).
+
+
+## Features
+
+### Main Site
+-------------
+
+Home
+ - The landing page of the website
+ - Staff Login Button
+ - Navigation bar
+ - 
+Menu
+ - Dish names & prices
+ - Name,
+ - Price,
+ - Description,
+ - Ingredients,
+ - Allergens
+
+Contact
+- Contact form tomake reviews or questions
+- Contact details;
+ - Firstname,
+ - Lastname,
+ - Email,
+ - Review
+
+### Staff Interface
+-------------
+Dashboard
+ - Admin Dashboard Hero Interface
+
+Register
+ - Admin account creation
+
+Menu
+ - N/A
+
+Logout
+ - Returns to main site
