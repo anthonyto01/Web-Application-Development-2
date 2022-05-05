@@ -42,8 +42,9 @@ at [localhost:3000](http://localhost:3000).
 
 ## Features
 
-###Main Site
+### Main Site
 -------------
+
 Home
  - The landing page of the website
  - Staff Login Button
